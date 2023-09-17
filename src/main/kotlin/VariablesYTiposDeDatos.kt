@@ -1,13 +1,10 @@
+
+const val PI = 3.15416
 fun main() {
-    var decimal = 8.5
-    println(decimal)
+    var numDecimal = 8.5f
+    //println(numDecimal.class.kotlin)
 
-    var float = decimal.toFloat()
-    println(float)
+    val perimetro = 2*PI*numDecimal
 
-    val c = 3.14159265359
-    var resultado = c*(decimal*2)
-
-    println("El perímetro del círculo es: $resultado")
-
+    println("El perímetro del círculo es: $perimetro")
 }
